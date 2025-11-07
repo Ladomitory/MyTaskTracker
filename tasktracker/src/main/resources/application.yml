@@ -1,0 +1,10 @@
+server:
+  address: ${APP_ADDRESS:0.0.0.0}
+  port: 8080
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://TaskTrackerDB:5432/tasktracker}
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:ASDzxc123}
+    driver-class-name: org.postgresql.Driver
+  
